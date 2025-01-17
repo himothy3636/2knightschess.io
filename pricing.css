@@ -1,157 +1,43 @@
-body {
-    background-color: #36454F; /* Sets the background color */
-    position: relative;
-}
-.text_button_pricing_page {
-    border-color: none;
-}
-.rectangle {
-    background-color:#36454F ;
-    border-color: none;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
-}
-#rectangle1 {
-    position: absolute;
-    top: 157px;
-    left: 189px;
-    width: 242px;
-    height: 409px;
-    z-index: -1; 
-    border-radius: 15px;   
-    
-}
-#rectangle2 {
-    position: absolute;
-    top: 157px;
-    left: 653px;
-    width: 242px;
-    height: 409px;
-    z-index: -1;
-    border-radius: 15px;    
-}
-#rectangle3 {
-    position: absolute;
-    top: 157px;
-    left: 1100px;
-    width: 242px;
-    height: 409px;
-    z-index: -1;  
-    border-radius: 15px;  
-}
-#session1 {
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 52px;           /* Move the button 714px from the top of the screen */
-    left: -927px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 26px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#bookbutton{
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 320px;           /* Move the button 714px from the top of the screen */
-    left: -886px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 32px;
-    height: 69px;
-    width: 192px;
-    background-color: #36454F;
-    border-color: black;
-    border-radius: 15px;
-}
-#bookbutton1{
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 320px;           /* Move the button 714px from the top of the screen */
-    left: -423px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 32px;
-    height: 69px;
-    width: 192px;
-    background-color: #36454F;
-    border-color: black;
-    border-radius: 15px;
-}
-#bookbutton2{
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 320px;           /* Move the button 714px from the top of the screen */
-    left: 29px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 32px;
-    height: 69px;
-    width: 192px;
-    background-color: #36454F;
-    border-color: black;
-    border-radius: 15px;
-}
-#session2 {
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 52px;           /* Move the button 714px from the top of the screen */
-    left: -468px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
-#session3 {
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 59px;           /* Move the button 714px from the top of the screen */
-    left: -7px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 26px;
-    font-family: Georgia, 'Times New Roman', Times, serif;}
-#session_num1 {
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 10px;           /* Move the button 714px from the top of the screen */
-    left: -892px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 38px;
-    font-family: Georgia, 'Times New Roman', Times, serif;} 
-#session_num5{
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 10px;           /* Move the button 714px from the top of the screen */
-    left: -438px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 38px;
-    font-family: Georgia, 'Times New Roman', Times, serif;} 
-#session_num10{
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    top: 13px;           /* Move the button 714px from the top of the screen */
-    left: 2px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 38px;
-    font-family: Georgia, 'Times New Roman', Times, serif;} 
-#rectangle {
-    position: absolute;
-    top: -8px;
-    left: -9px;
-    width: 1524px;
-    height: 56px;
-    z-index: -1;  
-}
-#home_button {
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    padding: 10px 20px;
-    font-size: 16px;
-    height: 50px;
-    width: 306px;
-    background-color: #00334D;
-    border-color: #00334D;
-}
-#pricing_button {
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    left: 700px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 16px;
-    height: 50px;
-    width: 100px;
-    background-color: #00334D;
-    border-color: #00334D;
-}
-#about_me {
-    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
-    left: 476px;          /* Move the button 484px from the left side of the screen */
-    padding: 10px 20px;
-    font-size: 16px;
-    height: 50px;
-    width: 100px;
-    background-color: #00334D;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+    <input type="button" value="About Me" id="about_me" class="text_button" onclick="location.href='aboout_me.html'">
+    <input type="button" value="Pricing" id="pricing_button" class="text_button" onclick="location.href='pricing.html'">
+    <input type="button" value="Two Knights Chess Tutoring" id="home_button" class="text_button" onclick="location.href='index.html'">
+    <div style= "background-color: #00334D; border: 2px solid rgb(0, 0, 0);" id = "rectangle"></div>
+    <button style= "background-color: #00334D; border: 2px solid rgb(0, 0, 0);" id = "rectangle1"></div>
+    <button style= "background-color: #00334D; border: 2px solid rgb(0, 0, 0);" id = "rectangle2"></div>
+    <button style= "background-color: #00334D; border: 2px solid rgb(0, 0, 0);" id = "rectangle3"></div>
+    <div id = "session3"> $25 for first lesson,<br>
+            $255<br>
+            Payed in cash or with <br>
+            pay pal after <br>
+            first lesson <br>
+    </div>
+    <div id = "session1"> $25 for first lesson,<br>
+        $30 per lesson after<br>
+        Paid in person after <br>
+        lesson with cash or <br>
+        pay pal </div>
+    <div id = "session2"> $25 for first lesson,<br>
+       $135<br>
+        Payed in cash or with <br>
+        pay pal after <br>
+        first lesson <br> 
+         </div>  
+
+
+        <div id = "session_num1"> 1 Session </div>  
+        <div id = "session_num5"> 5 Sessions </div>  
+        <div id = "session_num10"> 10 Sessions </div>  
+    <input type = "button" value = "Book Now" id = "bookbutton">
+    <input type = "button" value = "Book Now" id = "bookbutton1">
+    <input type = "button" value = "Book Now" id = "bookbutton2">
+</body>
+</html>
